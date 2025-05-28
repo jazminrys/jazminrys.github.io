@@ -1,14 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0;
-  padding: 0;
+body{
+  font-family: 'Open Sans' , sans-serif;
+  margin: 2rem;
   text-align: left;
+  background: #00240d;
   background: linear-gradient(90deg, rgba(0, 36, 13, 1) 0%, rgba(3, 79, 54, 1) 35%, rgba(144, 214, 185, 1) 100%);
   color: white;
 }
-
 @keyframes slideInFade {
   from {
     opacity: 0;
@@ -19,33 +16,13 @@ body {
     transform: translateY(0);
   }
 }
-
-header.hero {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2rem;
-}
-
 h1 {
   color: white;
-  font-size: 4rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
-  opacity: 0;
   animation: slideInFade 1.5s ease-out forwards;
 }
 
 p {
-  font-size: 1.5rem;
-  max-width: 600px;
-  opacity: 0;
-  animation: slideInFade 1.5s ease-out 0.5s forwards;
-}
-
-section.content {
-  background-color: white;
-  color: black;
-  padding: 4rem 2rem;
-  min-height: 100vh;
+  font-size: 1.2rem;
 }
