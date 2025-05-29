@@ -16,12 +16,12 @@ body{
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 7rem;
   margin-bottom: 1rem;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -36,7 +36,7 @@ nav ul {
 nav a {
   text-decoration: none;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.3s;
 }
@@ -58,13 +58,13 @@ nav a:hover {
 
 .fade-slide {
   opacity: 0;
-  animation: slideInFade 1.5s ease-out forwards;
+  animation: slideInFade 3s ease-out forwards;
 }
 
 .delay {
-  animation-delay: 0.5s;
+  animation-delay: 1s;
 }
 
 .delay-2 {
-  animation-delay: 1s;
+  animation-delay: 3s;
 }
