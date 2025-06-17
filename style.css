@@ -2,7 +2,7 @@ body{
   font-family: 'Open Sans' , sans-serif;
   margin:0;
   background: #00240d;
-  background: linear-gradient(90deg, rgba(0, 36, 13, 1) 0%, rgba(3, 79, 54, 1) 35%, rgba(144, 214, 185, 1) 100%);
+  background: radial-gradient(circle, rgba(0, 135, 110, 1) 0%, rgba(5, 92, 70, 1) 50%, rgba(0, 38, 25, 1) 100%);
   color: white;
   display: flex;
   justify-content: center;
@@ -11,17 +11,17 @@ body{
   text-align: center;
 }
 .container {
-  max-width: 800px;
+  max-width: 3000px;
   padding: 2rem;
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 23rem;
   margin-bottom: 1rem;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -36,7 +36,7 @@ nav ul {
 nav a {
   text-decoration: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 3rem;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.3s;
 }
