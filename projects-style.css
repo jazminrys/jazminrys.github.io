@@ -1,0 +1,86 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: radial-gradient(circle, rgba(0, 135, 110, 1) 0%, rgba(5, 92, 70, 1) 50%, rgba(0, 38, 25, 1) 100%);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 10rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+p {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 2rem;
+  background: none;
+  border: 2px solid white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.home-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.map-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  padding: 0 2rem;
+  max-width: 3000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.map-section img {
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  flex: 1 1 300px;
+}
+
+.map-section .description {
+  max-width: 1000px;
+  text-align: left;
+  flex: 1 1 300px;
+}
+
+.map-section .description a {
+  color: #b0e5ff;
+}
+
+.fade-slide {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideIn 1s ease-out forwards;
+}
+
+.fade-slide.delay {
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

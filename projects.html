@@ -3,64 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <title>Projects | Jazmin Reyes</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="projects-style.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <style>
-    .alt-layout h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-
-    .alt-layout p {
-      font-size: 1.25rem;
-    }
-
-    .map-frame {
-      width: 100%;
-      height: 80vh;
-      border: none;
-      margin: 0;
-      padding: 0;
-      display: block;
-    }
-
-    .map-wrapper {
-      margin: 2rem auto;
-      max-width: 100%;
-    }
-
-    .back-link {
-      text-align: center;
-      margin-top: 2rem;
-    }
-
-    .back-link a {
-      color: white;
-      text-decoration: underline;
-      font-size: 1.2rem;
-    }
-  </style>
 </head>
 <body>
-  <!-- Title / description -->
-  <div class="container alt-layout">
-    <h1 class="fade-slide">Projects</h1>
-    <p class="fade-slide delay">Here's an interactive map I built for Santa Clara:</p>
-  </div>
 
-  <!-- Full-width map -->
-  <div class="map-wrapper">
-    <iframe 
-      src="https://jazminrys.github.io/santa-clara-map/" 
-      class="map-frame"
-      title="Santa Clara Map"
-      loading="lazy">
-    </iframe>
-  </div>
+  <!-- Home Button -->
+  <a href="index.html" class="home-button">← Home</a>
 
-  <!-- Back to Home link -->
-  <div class="container alt-layout back-link">
-    <a href="index.html">← Back to Home</a>
-  </div>
+  <!-- Header -->
+  <h1 class="fade-slide">Projects</h1>
+
+  <!-- Full-width map + text section -->
+  <section class="map-section">
+    <a href="https://jazminrys.github.io/santa-clara-map/" target="_blank">
+      <img 
+        src="santa-clara-map-preview.png" 
+        alt="Santa Clara Map Preview"
+        class="map-preview"
+      >
+    </a>
+    <div class="description">
+      <h2>Santa Clara County Interactive Map</h2>
+      <p>
+        This is an interactive map I created for an AgeTech startup based in Silicon Valley.
+        It visualizes median income and the percentage of residents over age 65 across neighborhoods in Santa Clara County.
+        The tool was built to support the company’s expansion strategy by identifying areas with a high concentration of their target demographic.
+        The data and geographic boundaries were sourced from the <a href="https://gisdata-csj.opendata.arcgis.com/datasets/9c03b6eb70e14284b903460de164aba1_549/explore" target="_blank">City of San Jose</a>.
+        Click the map to explore it fully.
+      </p>
+    </div>
+  </section>
+
 </body>
 </html>
