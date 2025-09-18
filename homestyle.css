@@ -16,12 +16,12 @@ body{
 }
 
 h1 {
-  font-size: 23rem;
+  font-size: 12rem;
   margin-bottom: 1rem;
 }
 
 p {
-  font-size: 4rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -36,7 +36,7 @@ nav ul {
 nav a {
   text-decoration: none;
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.3s;
 }
